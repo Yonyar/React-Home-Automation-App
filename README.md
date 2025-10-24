@@ -22,16 +22,16 @@ This project is part of my personal portfolio and aims to demonstrate skills in:
 
 ⚙️ Features
 - 🌐 Firebase Real-time Database & Auth
-    | ![Login](public/asset/login.gif)    | ![Logout](public/asset/logout.gif) |
+    | ![Login](public/assets/login.gif)    | ![Logout](public/assets/logout.gif) |
     |-------------------------------------|------------------------------------|
 
 - ✅ Enable/Disable **Controls**
-    ![Controls](public/asset/controls.gif)
+    ![Controls](public/assets/controls.gif)
 
 - 💡  Add, Edit or Remove **Rooms** for lights
-    ![Rooms](public/asset/rooms.gif)
+    ![Rooms](public/assets/rooms.gif)
 
 - 📱  Responsive UI & touch
-    | ![Responsive](public/asset/responsive.gif) | ![Touch](public/asset/touch.gif) |
+    | ![Responsive](public/assets/responsive.gif) | ![Touch](public/assets/touch.gif) |
     |--------------------------------------------|----------------------------------|
 
