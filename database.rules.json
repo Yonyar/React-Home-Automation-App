@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "$Dispositivos": {
+      ".read": "true",
+      ".write": "true"
+    }
+  }
+}
