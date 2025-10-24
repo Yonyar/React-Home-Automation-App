@@ -1,0 +1,82 @@
+@media (orientation: portrait) {
+  #btnLogin {
+    margin-top: 18em;
+  }
+}
+@media (orientation: landscape) {
+  #btnLogin {
+    margin-top: 13em;
+  }
+}
+.load {
+  /*change these sizes to fit into your project*/
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  position: absolute;
+  top: -50%; left: 0; bottom: 0; right: 70px;
+}
+.load hr {
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  animation: spin 8s ease infinite;
+}
+
+.load :first-child {
+  background-color: yellowgreen;
+  animation-delay: -6s;
+  -webkit-animation-delay: -6s;
+  -moz-animation-delay: -6s;
+}
+.load :nth-child(2) {
+  background-color: #27ae60;
+  animation-delay: -4s;
+  -webkit-animation-delay: -4s;
+  -moz-animation-delay: -4s;
+}
+.load :nth-child(3) {
+  background-color: #a53125;
+  animation-delay: -2s;
+  -webkit-animation-delay: -2s;
+  -moz-animation-delay: -2s;
+}
+.load :last-child {
+  background-color: antiquewhite;
+  animation-delay: 0ms;
+  -webkit-animation-delay: 0ms;
+  -moz-animation-delay: 0ms;
+}
+
+@-webkit-keyframes spin {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(160%);
+  }
+  50% {
+    transform: translate(160%, 160%);
+  }
+  75% {
+    transform: translate(0, 160%);
+  }
+}
+@keyframes spin {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(160%);
+  }
+  50% {
+    transform: translate(160%, 160%);
+  }
+  75% {
+    transform: translate(0, 160%);
+  }
+}

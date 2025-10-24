@@ -1,0 +1,99 @@
+:root {
+  /* blue palette */
+    --blue-dark : #1B262C;
+    --blue-hard : #0F4C75;
+    --blue-soft : #3282B8;
+    --blue-light : #BBE1FA;
+  /* icon palette */
+    --icon-grey : #DCDCDC;
+    --icon-yellow : #FFBF00;
+    --icon-orange : #FF7800;
+
+    --red : #a53125
+}
+.bg-blue-dark {
+  background-color: var(--blue-dark);
+}
+.bg-blue-hard {
+  background-color: var(--blue-hard);
+}
+.bg-blue-soft {
+  background-color: var(--blue-soft);
+}
+.bg-blue-light {
+  background-color: var(--blue-light);
+}
+.bg-icon-grey {
+  background-color: var(--icon-grey);
+}
+.bg-icon-yellow {
+  background-color: var(--icon-yellow);
+}
+.bg-icon-orange {
+  background-color: var(--icon-orange);
+}
+.bg-red {
+  background-color: var(--red);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--blue-hard);
+  background-color: -webkit-linear-gradient(top left, #08F 0%, #03A 100%);
+  background-color: -moz-linear-gradient(top left, #08F 0%, #03A 100%);
+  background-color: -o-linear-gradient(top left, #08F 0%, #03A 100%);
+  background-color: linear-gradient(to bottom right, #08F 0%, #03A 100%);
+	background-attachment: fixed;
+
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  position: fixed;
+  z-index: -1;
+}
+
+p, h1, h2, h3, .no-userselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.show {
+	display: block;
+}
+.notShow {
+	display: none;
+}
+
+.header{
+  height:80px;
+  position: relative;
+  z-index: 2;
+}
+.home{
+  height:100%;
+}
+@media (orientation: portrait) {
+  .box{
+    width: 100%;
+    position: absolute;
+    max-height: 85%;
+    overflow: auto;
+  }
+}
+@media (orientation: landscape) {
+  .box{
+    width: 100%;
+    position: absolute;
+    max-height: 75%;
+    overflow: auto;
+  }
+}
