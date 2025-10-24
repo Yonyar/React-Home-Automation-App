@@ -1,0 +1,59 @@
+.fila-menu {
+  width: 290px;
+}
+.dropdown-menu {
+  background-color: rgb(52, 58, 64);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  user-select: none;
+}
+.dropdown-item {
+  color: white;
+  text-align: center;
+}
+div.dropdown-menu.show.dropdown-menu-right {
+  margin-top: 20px !important;
+  width: 100px;
+  min-width: 100px;
+  max-width: 230px;
+}
+
+.activate-menu div.dropdown-menu.show.dropdown-menu-right {
+  margin-top: 20px !important;
+  width: 200px;
+  min-width: 100px;
+  max-width: 230px;
+  margin-right: 5px !important;
+}
+.activate-menu .dropdown-toggle{
+  margin-bottom: 10px;
+}
+.activate-menu{
+  width: auto;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.dropdown-item:hover {
+  background-color: transparent;
+}
+.bg_exit {
+  background-color: rgba(189, 33, 48, 0.7);
+  border-radius: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: auto;
+  padding: 7px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,1);
+}
+.custom-control-label {
+  color: white !important;
+}
+.confDropdown {
+  max-width: 250px;
+}
+.infoCong {
+  min-width:150px;
+  position: relative;
+  top: 8px;
+}
