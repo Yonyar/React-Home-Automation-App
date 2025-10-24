@@ -1,0 +1,20 @@
+{
+  "short_name": "iHome App",
+  "name": "iHome App - Control your life",
+  "icons": [
+    {
+      "src": "./assets/Logo_iHome_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/Logo_iHome_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://ihome-react.firebaseapp.com",
+  "display": "standalone",
+  "theme_color": "#0F4C75",
+  "background_color": "#0F4C75"
+}
