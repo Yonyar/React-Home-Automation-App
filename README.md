@@ -1,4 +1,4 @@
-# 🏠 React Home Automation App
+# 🏠 React - Home Automation App
 
 Web application for intelligent home device management, developed with React, Node.js, and JavaScript.
 
